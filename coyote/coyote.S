@@ -369,5 +369,9 @@ _Exploit:
     ldp x29, x30, [sp], #0x70
     ret  
 
+_Identification:    
+    nop
+    .ascii "Coyote-Napali"
+
 .text
 .align 4
